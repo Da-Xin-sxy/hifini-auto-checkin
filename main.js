@@ -54,12 +54,12 @@ async function main() {
   //   console.log("❌ 未配置账户信息。");
   //   process.exit(1);
   // }
-  accounts = JSON.parse('[
-  {
-    "name": "843646876@qq.com",
-    "cookie": "bbs_sid=5vgfnamkr1tav3akfvqmmk3jdf; Hm_lvt_23819a3dd53d3be5031ca942c6cbaf25=1757125632; HMACCOUNT=C3139989CA662350; bbs_token=zp_2FW3ebxM0eg0vH8lULswbogLFOIFEAxi_2FZB1JFqi_2B8uJ_2BLILb7A4qfyy8ok5YLlbdNcyoJrM_2FRV2rI3M6im_2FAWbBr4_3D; Hm_lpvt_23819a3dd53d3be5031ca942c6cbaf25=1757129156"
-  }
-]')
+  accounts = [
+    {
+      "name": "843646876@qq.com",
+      "cookie": "bbs_sid=5vgfnamkr1tav3akfvqmmk3jdf; Hm_lvt_23819a3dd53d3be5031ca942c6cbaf25=1757125632; HMACCOUNT=C3139989CA662350; bbs_token=zp_2FW3ebxM0eg0vH8lULswbogLFOIFEAxi_2FZB1JFqi_2B8uJ_2BLILb7A4qfyy8ok5YLlbdNcyoJrM_2FRV2rI3M6im_2FAWbBr4_3D; Hm_lpvt_23819a3dd53d3be5031ca942c6cbaf25=1757129156"
+    }
+  ];
 
   const allPromises = accounts.map((account) => processSingleAccount(account));
   const results = await Promise.allSettled(allPromises);
