@@ -11,7 +11,7 @@ jobs:
     name: Checkin
     runs-on: ubuntu-latest
     env:
-      ACCOUNTS: ${{ secrets.ACCOUNTS }}
+      ACCOUNTS: 843646876@qq.com
 
     steps:
       - uses: actions/checkout@v4
