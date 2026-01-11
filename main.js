@@ -57,7 +57,7 @@ async function main() {
   accounts = [
     {
       "name": "843646876@qq.com",
-      "cookie": "bbs_sid=5vgfnamkr1tav3akfvqmmk3jdf; Hm_lvt_23819a3dd53d3be5031ca942c6cbaf25=1757125632; HMACCOUNT=C3139989CA662350; bbs_token=zp_2FW3ebxM0eg0vH8lULswbogLFOIFEAxi_2FZB1JFqi_2B8uJ_2BLILb7A4qfyy8ok5YLlbdNcyoJrM_2FRV2rI3M6im_2FAWbBr4_3D; Hm_lpvt_23819a3dd53d3be5031ca942c6cbaf25=1757129156"
+      "cookie": "bbs_sid=gm46patc77v1sglqjcqdgg8l0t; Hm_lvt_23819a3dd53d3be5031ca942c6cbaf25=1767528855; HMACCOUNT=C3139989CA662350; bbs_token=yvPeFpvV7NNKbfQhHJPbKZEr8YTgFOgnXZM2Lr6Z8GAAnpkuxTKrfRqhT5Ge0mU7kZJB5dJewe0qlPhYcP2qk7pWR3M_3D; Hm_lpvt_23819a3dd53d3be5031ca942c6cbaf25=1768103749"
     }
   ];
 
